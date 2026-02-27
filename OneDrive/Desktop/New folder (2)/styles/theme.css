@@ -1,0 +1,87 @@
+:root {
+  --font-size: 16px;
+  --background: #ffffff;
+  --foreground: #000000;
+  --card: #ffffff;
+  --card-foreground: #000000;
+  --popover: #ffffff;
+  --popover-foreground: #000000;
+  --primary: #030213;
+  --primary-foreground: #ffffff;
+  --secondary: #f3f4f6;
+  --secondary-foreground: #030213;
+  --muted: #ececf0;
+  --muted-foreground: #717182;
+  --accent: #e9ebef;
+  --accent-foreground: #030213;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(0, 0, 0, 0.1);
+  --input: transparent;
+  --input-background: #f3f3f5;
+  --switch-background: #cbced4;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #000000;
+  --chart-1: #ef5350;
+  --chart-2: #42a5f5;
+  --chart-3: #66bb6a;
+  --chart-4: #ffa726;
+  --chart-5: #ab47bc;
+  --radius: 0.625rem;
+  --sidebar: #fefffe;
+  --sidebar-foreground: #000000;
+  --sidebar-primary: #030213;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f8f9fa;
+  --sidebar-accent-foreground: #000000;
+  --sidebar-border: rgba(0, 0, 0, 0.1);
+  --sidebar-ring: #000000;
+}
+
+.dark {
+  --background: #000000;
+  --foreground: #ffffff;
+  --card: #000000;
+  --card-foreground: #ffffff;
+  --popover: #000000;
+  --popover-foreground: #ffffff;
+  --primary: #ffffff;
+  --primary-foreground: #000000;
+  --secondary: #1f2937;
+  --secondary-foreground: #ffffff;
+  --muted: #4b5563;
+  --muted-foreground: #b4b8c4;
+  --accent: #1f2937;
+  --accent-foreground: #ffffff;
+  --destructive: #ef6461;
+  --destructive-foreground: #ffffff;
+  --border: rgba(255, 255, 255, 0.1);
+  --input: #1f2937;
+  --ring: #ffffff;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --chart-1: #ef5350;
+  --chart-2: #42a5f5;
+  --chart-3: #66bb6a;
+  --chart-4: #ffa726;
+  --chart-5: #ab47bc;
+  --sidebar: #0f172a;
+  --sidebar-foreground: #ffffff;
+  --sidebar-primary: #42a5f5;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #1f2937;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: rgba(255, 255, 255, 0.1);
+  --sidebar-ring: #ffffff;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+  }
+}
